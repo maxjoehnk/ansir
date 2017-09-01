@@ -27,7 +27,7 @@ render = (image, config) ->
         fg   : null
         bg   : color
       }
-    config.write ansi.joinLineEscapes(line) + '\n'
+    config.write ansi.joinLineEscapes(line)
   config.write ansi.ANSI_RESET
   return
 
